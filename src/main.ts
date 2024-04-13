@@ -19,10 +19,10 @@ async function bootstrap() {
   );
 
   const config = new DocumentBuilder()
-    .setTitle("Todo example")
-    .setDescription("The todo API description")
+    .setTitle("Todo and Cats example")
+    .setDescription("The todo and Cats APIs description")
     .setVersion("1.0")
-    .setContact("Raul Bolivar Navas", "https://www.linkedin.com/in/rasysbox", "rasysbox@hotmail.com")
+    .setContact("Raul Bolivar Navas", "https://rasysbox.com", "rasysbox@hotmail.com")
     .setLicense("MIT", "https://opensource.org/licenses/MIT")
     .setTermsOfService("https://www.linkedin.com/in/rasysbox")
     .build();
